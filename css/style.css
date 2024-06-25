@@ -16,6 +16,22 @@ body {
     padding-left: 10px;
     padding-right: 20px;
 }
+
+.banner {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 40px 0px 40px;
+    position: relative;
+    bottom: 520px;
+    right: 100px;
+}
+
+.banner img:hover {
+    transform: rotate(5deg);
+    scale: 1.1;
+    transition: 0.5s;
+}
+
 .menu-special {
     margin-top: 445px;
     background-image: url("../img/banner.png"); height: 100px; width: auto;
@@ -43,6 +59,8 @@ body {
     position: relative;
     display: flex;
     justify-content: space-around;
+    bottom: 450px;
+    right: 10px;
 }
 
 .button-menu .button1 {
@@ -140,7 +158,7 @@ body {
     font-weight: 600;
     color: rgb(0, 0, 0);
     position: absolute;
-    bottom: 372px;
+    bottom: 798px;
     right: 29px;
 }
 
@@ -157,7 +175,7 @@ body {
     font-weight: 600;
     color: rgb(0, 0, 0);
     position: absolute;
-    top: -167px;
+    bottom: 1055px;
     right: 210px;
 }
 
@@ -174,7 +192,7 @@ body {
     font-weight: 600;
     color: rgb(0, 0, 0);
     position: absolute;
-    top: -478px;
+    bottom: 1365px;
     left: 215px;
 }
 
@@ -184,6 +202,7 @@ body {
     margin-left: 110px;
     width: 40px;
     height: 50px;
+    bottom: 845px;
 }
 
 .kupon:hover {
@@ -211,6 +230,6 @@ body {
     font-weight: 600;
     color: #000000;
     position: absolute;
-    top: 150px;
+    bottom: 335px;
     left: 80px;
 }

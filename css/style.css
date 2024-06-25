@@ -202,8 +202,8 @@ body {
     margin-left: 110px;
     width: 40px;
     height: 50px;
-    bottom: 345px;
-	position: relative;
+    bottom: 430px;
+    position: relative;
 }
 
 .kupon:hover {
@@ -231,6 +231,6 @@ body {
     font-weight: 600;
     color: #000000;
     position: absolute;
-    bottom: 335px;
+    top: 500px;
     left: 80px;
 }

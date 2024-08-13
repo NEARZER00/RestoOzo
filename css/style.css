@@ -2,9 +2,11 @@
 
 body {
 	background-image: url("../img/backgroud.jpg");
-    width: 990px; 
-    height: 1500px; 
+    width: 990px;
+    height: 2860px; 
     background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
 }
 
 .title {
@@ -24,6 +26,7 @@ body {
     position: relative;
     bottom: 520px;
     right: 100px;
+    
 }
 
 .banner img:hover {
